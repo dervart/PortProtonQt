@@ -344,10 +344,13 @@ CAPTION_LABEL_STYLE="color: white; font-size: 16px;"
 
 # СТИЛИ БЕЙДЖА PROTONDB НА КАРТОЧКЕ
 PROTONDB_BADGE_STYLE= """
+    QLabel {
+        qproperty-alignment: AlignCenter;
+    }
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 16px;
-    padding: 3px 6px;
+    padding: 3px 5px;
     border-radius: 5px;
     font-family: 'Play';
     font-weight: bold;
@@ -355,10 +358,13 @@ PROTONDB_BADGE_STYLE= """
 
 # СТИЛИ БЕЙДЖА STEAM
 STEAM_BADGE_STYLE= """
+    QLabel {
+        qproperty-alignment: AlignCenter;
+    }
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 16px;
-    padding: 3px 6px;
+    padding: 5px 25px;
     border-radius: 5px;
     font-family: 'Play';
     font-weight: bold;
